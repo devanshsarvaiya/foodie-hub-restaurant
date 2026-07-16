@@ -119,3 +119,71 @@
 .menu-card h4{
     color:#ff6b00;
 }
+
+.menu-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    max-width:900px;
+    margin:40px auto;
+}
+
+.menu{
+    padding:80px 20px;
+    text-align:center;
+    background:#fff8f0;
+}
+
+.menu h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.menu-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    max-width:900px;
+    margin:auto;
+}
+
+.menu-card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:0.3s;
+}
+
+.menu-card:hover{
+    transform:translateY(-8px);
+}
+
+.menu-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.menu-card h3{
+    margin-top:15px;
+}
+
+.menu-card p{
+    padding:0 20px;
+    color:#666;
+}
+
+.menu-card h4{
+    color:#ff6b00;
+}
+
+.menu-card button{
+    margin-bottom:20px;
+    background:#ff6b00;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+}
