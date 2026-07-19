@@ -477,3 +477,48 @@
     background:#e65c00;
     transform:scale(1.03);
 }
+
+/* ==========================
+   FOOTER
+========================== */
+
+.footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+    border-top:4px solid #ff6b00;
+}
+
+.footer h3{
+    font-size:32px;
+    margin-bottom:15px;
+    color:#ff6b00;
+}
+
+.footer p{
+    color:#ddd;
+    margin:10px 0;
+}
+
+.social-icons{
+    margin:25px 0;
+}
+
+.social-icons a{
+    text-decoration:none;
+    font-size:30px;
+    margin:0 12px;
+    display:inline-block;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    transform:translateY(-5px) scale(1.2);
+}
+
+.copyright{
+    margin-top:25px;
+    font-size:15px;
+    color:#aaa;
+}
