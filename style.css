@@ -134,7 +134,7 @@
     grid-template-columns:repeat(2,1fr);
     gap:30px;
     max-width:900px;
-    margin:40px auto;
+    margin:auto;
 }
 
 .menu{
@@ -150,7 +150,7 @@
 
 .menu-container{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:1fr;
     gap:30px;
     max-width:900px;
     margin:auto;
@@ -162,6 +162,7 @@
     overflow:hidden;
     box-shadow:0 10px 25px rgba(0,0,0,.15);
     transition:0.3s ease;
+    width:100%;
 }
 
 .menu-card:hover{
@@ -521,4 +522,24 @@
     margin-top:25px;
     font-size:15px;
     color:#aaa;
+}
+
+/* ==========================
+   RESPONSIVE DESIGN
+========================== */
+
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        gap:15px;
+        margin-top:20px;
+        text-align:center;
+    }
+
 }
