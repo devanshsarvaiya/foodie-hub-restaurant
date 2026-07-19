@@ -8,12 +8,9 @@
 
 .hero-image{
     width:100%;
-    max-width:900px;
-    height:450px;
+    max-width:1200px;
+    height:500px;
     object-fit:cover;
-    border-radius:15px;
-    box-shadow:0 10px 25px rgba(0,0,0,.2);
-    filter:brightness(55%);
 }
 
 .hero-content{
@@ -106,7 +103,7 @@
 }
 
 .menu-card{
-    width:320px;
+    width:340px;
     margin:40px auto;
     background:white;
     border-radius:15px;
@@ -288,4 +285,58 @@
 
 .nav-links a:hover{
     color:#ff6b00;
+}
+
+/* ==========================
+   ABOUT SECTION
+========================== */
+
+.about{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:80px;
+    padding:80px 10%;
+    background:#ffffff;
+    flex-wrap:wrap;
+}
+
+.about-image img{
+    width:450px;
+    max-width:100%;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.about-content{
+    max-width:500px;
+}
+
+.about-content h2{
+    font-size:40px;
+    color:#222;
+    margin-bottom:20px;
+}
+
+.about-content p{
+    font-size:18px;
+    color:#666;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.about-btn{
+    background:#ff6b00;
+    color:white;
+    border:none;
+    padding:14px 30px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.about-btn:hover{
+    background:#e65c00;
+    transform:scale(1.05);
 }
